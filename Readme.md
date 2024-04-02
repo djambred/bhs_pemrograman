@@ -1,10 +1,10 @@
 # GITHUB COMMAND LINE SAAT INISIALISASI PROJECT
 
 - git init
-digunakan untuk apa
+###### digunakan untuk apa
 
 - git add .
-digunakan untuk apa
+##### digunakan untuk apa
 
 - git commit -m "pesannya"
 digunakan untuk apa
@@ -23,3 +23,4 @@ digunakan untuk apa
 - git add .
 - git commit -m "pesannya"
 - git push
+
