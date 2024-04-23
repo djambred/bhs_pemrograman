@@ -8,7 +8,6 @@ class Nama {
         void full(string fName, string mName, string lName)
         {
             cout << "FULL NAME : " << fName + " " << mName << " " << lName << endl;
-    
         }
 };
 
