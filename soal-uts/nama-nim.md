@@ -1,6 +1,5 @@
 # SOAL 1
-## Jelaskan sesuai dengan pemahaman anda apa itu
-Bahasa Pemrograman?
+## Jelaskan sesuai dengan pemahaman anda apa itu Bahasa Pemrograman?
 # JAWABAN
 ## JAWABAN ANDA
 
