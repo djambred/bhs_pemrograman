@@ -1,0 +1,100 @@
+[2024-06-28 01:27:25] local.ERROR: Undefined variable $token {"exception":"[object] (ErrorException(code: 0): Undefined variable $token at /var/www/html/app/Http/Middleware/Authenticate.php:42)
+[stacktrace]
+#0 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RegistersExceptionHandlers.php(47): Laravel\\Lumen\\Application->handleError(2, 'Undefined varia...', '/var/www/html/a...', 42)
+#1 /var/www/html/app/Http/Middleware/Authenticate.php(42): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}(2, 'Undefined varia...', '/var/www/html/a...', 42)
+#2 /var/www/html/vendor/illuminate/pipeline/Pipeline.php(183): App\\Http\\Middleware\\Authenticate->handle(Object(Laravel\\Lumen\\Http\\Request), Object(Closure))
+#3 /var/www/html/vendor/laravel/lumen-framework/src/Routing/Pipeline.php(30): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Laravel\\Lumen\\Http\\Request))
+#4 /var/www/html/vendor/illuminate/pipeline/Pipeline.php(119): Laravel\\Lumen\\Routing\\Pipeline->Laravel\\Lumen\\Routing\\{closure}(Object(Laravel\\Lumen\\Http\\Request))
+#5 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(428): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#6 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(265): Laravel\\Lumen\\Application->sendThroughPipeline(Array, Object(Closure))
+#7 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(171): Laravel\\Lumen\\Application->handleFoundRoute(Array)
+#8 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(431): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}(Object(Laravel\\Lumen\\Http\\Request))
+#9 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(177): Laravel\\Lumen\\Application->sendThroughPipeline(Array, Object(Closure))
+#10 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(112): Laravel\\Lumen\\Application->dispatch(NULL)
+#11 /var/www/html/public/index.php(28): Laravel\\Lumen\\Application->run()
+#12 {main}
+"} 
+[2024-06-28 01:36:09] local.ERROR: syntax error, unexpected token "return" {"exception":"[object] (ParseError(code: 0): syntax error, unexpected token \"return\" at /var/www/html/app/Providers/AuthServiceProvider.php:43)
+[stacktrace]
+#0 /var/www/html/vendor/composer/ClassLoader.php(427): Composer\\Autoload\\{closure}('/var/www/html/v...')
+#1 /var/www/html/vendor/laravel/lumen-framework/src/Application.php(250): Composer\\Autoload\\ClassLoader->loadClass('App\\\\Providers\\\\A...')
+#2 /var/www/html/bootstrap/app.php(96): Laravel\\Lumen\\Application->register('App\\\\Providers\\\\A...')
+#3 /var/www/html/public/index.php(14): require('/var/www/html/b...')
+#4 {main}
+"} 
+[2024-06-28 01:36:43] local.ERROR: syntax error, unexpected token "return" {"exception":"[object] (ParseError(code: 0): syntax error, unexpected token \"return\" at /var/www/html/app/Providers/AuthServiceProvider.php:43)
+[stacktrace]
+#0 /var/www/html/vendor/composer/ClassLoader.php(427): Composer\\Autoload\\{closure}('/var/www/html/v...')
+#1 /var/www/html/vendor/laravel/lumen-framework/src/Application.php(250): Composer\\Autoload\\ClassLoader->loadClass('App\\\\Providers\\\\A...')
+#2 /var/www/html/bootstrap/app.php(96): Laravel\\Lumen\\Application->register('App\\\\Providers\\\\A...')
+#3 /var/www/html/public/index.php(14): require('/var/www/html/b...')
+#4 {main}
+"} 
+[2024-06-28 01:36:50] local.ERROR: syntax error, unexpected token "return" {"exception":"[object] (ParseError(code: 0): syntax error, unexpected token \"return\" at /var/www/html/app/Providers/AuthServiceProvider.php:43)
+[stacktrace]
+#0 /var/www/html/vendor/composer/ClassLoader.php(427): Composer\\Autoload\\{closure}('/var/www/html/v...')
+#1 /var/www/html/vendor/laravel/lumen-framework/src/Application.php(250): Composer\\Autoload\\ClassLoader->loadClass('App\\\\Providers\\\\A...')
+#2 /var/www/html/bootstrap/app.php(96): Laravel\\Lumen\\Application->register('App\\\\Providers\\\\A...')
+#3 /var/www/html/public/index.php(14): require('/var/www/html/b...')
+#4 {main}
+"} 
+[2024-06-28 01:37:06] local.ERROR: syntax error, unexpected token "return" {"exception":"[object] (ParseError(code: 0): syntax error, unexpected token \"return\" at /var/www/html/app/Providers/AuthServiceProvider.php:43)
+[stacktrace]
+#0 /var/www/html/vendor/composer/ClassLoader.php(427): Composer\\Autoload\\{closure}('/var/www/html/v...')
+#1 /var/www/html/vendor/laravel/lumen-framework/src/Application.php(250): Composer\\Autoload\\ClassLoader->loadClass('App\\\\Providers\\\\A...')
+#2 /var/www/html/bootstrap/app.php(96): Laravel\\Lumen\\Application->register('App\\\\Providers\\\\A...')
+#3 /var/www/html/public/index.php(14): require('/var/www/html/b...')
+#4 {main}
+"} 
+[2024-06-28 01:41:57] local.ERROR: Undefined variable $token {"exception":"[object] (ErrorException(code: 0): Undefined variable $token at /var/www/html/app/Http/Middleware/Authenticate.php:42)
+[stacktrace]
+#0 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RegistersExceptionHandlers.php(47): Laravel\\Lumen\\Application->handleError(2, 'Undefined varia...', '/var/www/html/a...', 42)
+#1 /var/www/html/app/Http/Middleware/Authenticate.php(42): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}(2, 'Undefined varia...', '/var/www/html/a...', 42)
+#2 /var/www/html/vendor/illuminate/pipeline/Pipeline.php(183): App\\Http\\Middleware\\Authenticate->handle(Object(Laravel\\Lumen\\Http\\Request), Object(Closure))
+#3 /var/www/html/vendor/laravel/lumen-framework/src/Routing/Pipeline.php(30): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Laravel\\Lumen\\Http\\Request))
+#4 /var/www/html/vendor/illuminate/pipeline/Pipeline.php(119): Laravel\\Lumen\\Routing\\Pipeline->Laravel\\Lumen\\Routing\\{closure}(Object(Laravel\\Lumen\\Http\\Request))
+#5 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(428): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#6 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(265): Laravel\\Lumen\\Application->sendThroughPipeline(Array, Object(Closure))
+#7 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(171): Laravel\\Lumen\\Application->handleFoundRoute(Array)
+#8 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(431): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}(Object(Laravel\\Lumen\\Http\\Request))
+#9 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(177): Laravel\\Lumen\\Application->sendThroughPipeline(Array, Object(Closure))
+#10 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(112): Laravel\\Lumen\\Application->dispatch(NULL)
+#11 /var/www/html/public/index.php(28): Laravel\\Lumen\\Application->run()
+#12 {main}
+"} 
+[2024-06-28 01:58:20] local.ERROR: Method Laravel\Lumen\Http\Request::heade does not exist. {"exception":"[object] (BadMethodCallException(code: 0): Method Laravel\\Lumen\\Http\\Request::heade does not exist. at /var/www/html/vendor/illuminate/macroable/Traits/Macroable.php:112)
+[stacktrace]
+#0 /var/www/html/app/Providers/AuthServiceProvider.php(41): Illuminate\\Http\\Request->__call('heade', Array)
+#1 [internal function]: App\\Providers\\AuthServiceProvider->App\\Providers\\{closure}(Object(Laravel\\Lumen\\Http\\Request), NULL)
+#2 /var/www/html/vendor/illuminate/auth/RequestGuard.php(58): call_user_func(Object(Closure), Object(Laravel\\Lumen\\Http\\Request), NULL)
+#3 /var/www/html/vendor/illuminate/auth/GuardHelpers.php(56): Illuminate\\Auth\\RequestGuard->user()
+#4 /var/www/html/vendor/illuminate/auth/GuardHelpers.php(66): Illuminate\\Auth\\RequestGuard->check()
+#5 /var/www/html/app/Http/Middleware/Authenticate.php(39): Illuminate\\Auth\\RequestGuard->guest()
+#6 /var/www/html/vendor/illuminate/pipeline/Pipeline.php(183): App\\Http\\Middleware\\Authenticate->handle(Object(Laravel\\Lumen\\Http\\Request), Object(Closure))
+#7 /var/www/html/vendor/laravel/lumen-framework/src/Routing/Pipeline.php(30): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Laravel\\Lumen\\Http\\Request))
+#8 /var/www/html/vendor/illuminate/pipeline/Pipeline.php(119): Laravel\\Lumen\\Routing\\Pipeline->Laravel\\Lumen\\Routing\\{closure}(Object(Laravel\\Lumen\\Http\\Request))
+#9 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(428): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#10 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(265): Laravel\\Lumen\\Application->sendThroughPipeline(Array, Object(Closure))
+#11 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(171): Laravel\\Lumen\\Application->handleFoundRoute(Array)
+#12 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(431): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}(Object(Laravel\\Lumen\\Http\\Request))
+#13 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(177): Laravel\\Lumen\\Application->sendThroughPipeline(Array, Object(Closure))
+#14 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(112): Laravel\\Lumen\\Application->dispatch(NULL)
+#15 /var/www/html/public/index.php(28): Laravel\\Lumen\\Application->run()
+#16 {main}
+"} 
+[2024-06-28 02:00:10] local.ERROR: Undefined variable $token {"exception":"[object] (ErrorException(code: 0): Undefined variable $token at /var/www/html/app/Http/Middleware/Authenticate.php:42)
+[stacktrace]
+#0 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RegistersExceptionHandlers.php(47): Laravel\\Lumen\\Application->handleError(2, 'Undefined varia...', '/var/www/html/a...', 42)
+#1 /var/www/html/app/Http/Middleware/Authenticate.php(42): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}(2, 'Undefined varia...', '/var/www/html/a...', 42)
+#2 /var/www/html/vendor/illuminate/pipeline/Pipeline.php(183): App\\Http\\Middleware\\Authenticate->handle(Object(Laravel\\Lumen\\Http\\Request), Object(Closure))
+#3 /var/www/html/vendor/laravel/lumen-framework/src/Routing/Pipeline.php(30): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Laravel\\Lumen\\Http\\Request))
+#4 /var/www/html/vendor/illuminate/pipeline/Pipeline.php(119): Laravel\\Lumen\\Routing\\Pipeline->Laravel\\Lumen\\Routing\\{closure}(Object(Laravel\\Lumen\\Http\\Request))
+#5 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(428): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#6 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(265): Laravel\\Lumen\\Application->sendThroughPipeline(Array, Object(Closure))
+#7 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(171): Laravel\\Lumen\\Application->handleFoundRoute(Array)
+#8 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(431): Laravel\\Lumen\\Application->Laravel\\Lumen\\Concerns\\{closure}(Object(Laravel\\Lumen\\Http\\Request))
+#9 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(177): Laravel\\Lumen\\Application->sendThroughPipeline(Array, Object(Closure))
+#10 /var/www/html/vendor/laravel/lumen-framework/src/Concerns/RoutesRequests.php(112): Laravel\\Lumen\\Application->dispatch(NULL)
+#11 /var/www/html/public/index.php(28): Laravel\\Lumen\\Application->run()
+#12 {main}
+"} 
