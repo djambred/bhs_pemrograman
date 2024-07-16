@@ -1,0 +1,14 @@
+@baseUrl = http://127.0.0.1
+@cType = application/json
+@password = password
+@username = client
+
+###
+GET {{baseUrl}}
+
+### GET DATA USER
+GET {{baseUrl}}/api/v1/token
+Content-Type: {{cType}}
+Authorization: Bearer {{password}}
+username: {{username}}
+
